@@ -343,6 +343,7 @@ a.icn1:hover{background-color: #ffffffcc; color: #18312E; border: 1px solid #183
 
 /* Media Query */
 @media screen and (max-width:768px) {
+    body{overflow-x: hidden;width: auto;}
   .oneMain{flex-direction: column;}
 .list img.smallimg{position: relative; top: 0px; left:0%;}
 .two{flex-direction: column; padding: 0; gap: 30px; align-items: center;}
@@ -392,9 +393,18 @@ button.zri1{padding: 8px 18px;}
 body{overflow-x: hidden;}
 
 
+.owlCar1 .owl-item img {
+    width: 55%;
+    margin-left: 58px
+
 }
+    button.zri1 {
+        padding: 6px 7px;
+        position: relative;
+        right: 36px;
+    }
 
-
+}
 
 
 
