@@ -338,10 +338,364 @@ a.icn1:hover{background-color: #ffffffcc; color: #18312E; border: 1px solid #183
 
 
 
+   /* RESPONSIVE MEDIA QUERY */
+
+
+@media screen and (max-width: 992px){
+
+*{
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar-nav{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 10px 0;
+}
+
+button.zri{
+    margin-top: 10px;
+}
+
+a.line{
+    display: none;
+}
+
+/* HERO SECTION */
+
+.oneMain{
+    flex-direction: column;
+    text-align: center;
+}
+
+.one1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+li.one2{
+    transform: rotate(0deg);
+    padding: 10px 0;
+}
+
+h1.delight{
+    font-size: 38px;
+}
+
+p.taste{
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.list{
+    flex-direction: column;
+    align-items: center;
+}
+
+li.one5{
+    left: 0;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+img.smallimg{
+    position: static;
+    margin-top: 20px;
+    height: 90px;
+}
+
+/* SECTION 2 */
+
+.two{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.two1,
+.two2,
+.two3{
+    margin-top: 20px;
+}
+
+.two2{
+    padding-left: 0;
+}
+
+h1.enjoy{
+    font-size: 35px;
+    line-height: 55px;
+}
+
+img.tw1i,
+img.two5{
+    width: 100%;
+    height: auto;
+}
+
+img.enj1{
+    height: 40px;
+}
+
+/* SECTION 3 */
+
+.three{
+    padding: 0 20px;
+}
+
+.flx3one{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.thr1i,
+.thr1i2{
+    width: 100%;
+}
+
+img.food{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.stfi{
+    display: none;
+}
+
+/* SECTION 4 */
+
+.owlCar1{
+    padding: 0 20px;
+}
+
+.item1{
+    width: 100%;
+}
+
+.owlCar1 .owl-item img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SECTION 5 */
+
+.five{
+    flex-direction: column;
+}
+
+.fif1,
+.fif2{
+    width: 100%;
+}
+
+input.name,
+select.date{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.txtarea{
+    width: 100%;
+}
+
+.fivespace{
+    display: none;
+}
+
+video.tables{
+    width: 90%;
+    margin: 30px 0;
+}
+
+/* SECTION 6 */
+
+.six{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.six1,
+.six2,
+.six3{
+    width: 100%;
+}
+
+.empty6{
+    display: none;
+}
+
+img.six2i,
+img.six3i{
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* SECTION 7 */
+
+.main7{
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.svn2{
+    width: 95%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.svn1{
+    flex-direction: column;
+}
+
+.svn1i{
+    padding: 0;
+}
+
+img.svn2ii{
+    height: 60px;
+}
+
+img.svn2i{
+    height: 50px;
+}
+
+/* SECTION 8 */
+
+.main8{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.egt1,
+.egt2,
+.egt1i{
+    width: 90%;
+    height: 350px;
+}
+
+/* SECTION 9 */
+
+.nine{
+    padding: 40px 20px;
+}
+
+.nine2{
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+
+.foot{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.foot1,
+.foot2{
+    width: 100%;
+}
+
+.ft1i{
+    width: 90%;
+}
+
+button.zri1{
+    position: static;
+    margin-top: 10px;
+}
+
+/* LAST SECTION */
+
+.last{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.border-line{
+    width: 90%;
+}
+
+}
+
+
+/* EXTRA SMALL DEVICES */
+
+@media screen and (max-width: 576px){
+
+h1.delight{
+    font-size: 28px;
+}
+
+h1.enjoy{
+    font-size: 26px;
+    line-height: 45px;
+}
+
+.thr2{
+    font-size: 28px;
+}
+
+.stuff{
+    font-size: 14px;
+}
+
+p.lorem,
+p.lorem1i,
+p.taste{
+    font-size: 11px;
+}
+
+button.zri{
+    padding: 8px 16px;
+    font-size: 11px;
+}
+
+img.logo{
+    height: 45px;
+}
+
+.egt1,
+.egt2,
+.egt1i{
+    height: 300px;
+}
+
+.svn2{
+    border-radius: 20px;
+}
+
+}
 
 
 
-/* Media Query */
+
+
+
+
+
+
+
+
+/* 
+
 @media screen and (max-width:768px) {
     body{overflow-x: hidden;width: auto;}
   .oneMain{flex-direction: column;}
@@ -404,7 +758,7 @@ body{overflow-x: hidden;}
         right: 36px;
     }
 
-}
+} */
 
 
 
